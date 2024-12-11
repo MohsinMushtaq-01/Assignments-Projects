@@ -1,0 +1,88 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    
+}
+/*-------------------MODAL---------------------------*/
+.modal-image{
+    background-image: url("https://static.tossdown.com/images/83e9c58e-3905-4e7a-971a-8d3f05efed76.webp");
+    height: 500px;
+    background-size: cover;
+}
+
+.modal-header{
+    border: none !important;
+    border-radius: none !important;
+}
+.button-modal{
+    background-color: white !important;
+    border-radius: 50% !important;
+    size:40px !important;
+   
+}
+/* .click-effect{
+} */
+
+
+/*----------------------------NAVIGATION BAR------------------------------------------*/
+.menu{
+    width: 100%;
+    height:100px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+/* .menu>.logo>img{
+    width:200px;
+    height:80px;
+    
+} */
+
+
+.image-under{
+    width:200px !important;
+    height:80px !important;
+    
+}
+
+.menu ul{
+   padding-top:20px ;
+}
+.menu ul li{
+    display: inline-block;
+    margin: 0 20px;
+    list-style: none;
+}
+.menu ul li a{
+  text-decoration: none;
+  color:white;
+  font-size: medium;
+}
+.bttn{
+    width:150px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: transparent;
+    border: solid 1px white;
+    box-shadow: none;
+    color:white
+}
+.bttn-1{
+    width:180px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: #ed1c24;
+    outline: none;
+    border: none;
+    color:white;
+    border: solid 1px #ed1c24;
+    position: relative;
+
+}
+i{
+    position: absolute;
+    right: 5%;
+    bottom:50%;
+}
+
